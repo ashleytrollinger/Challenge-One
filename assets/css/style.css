@@ -1,29 +1,30 @@
+/*Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*General background color set*/
 body {
     background-color: #d9dcd6;
 }
-
+/*General Heading style*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Sets the Horiseon position and size*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Sets the 'seo' in Horiseon to be a different color*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*General Navigation bar style*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,21 +36,21 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-
+/*Sets the Nav bar List elements to be next to eachother instead of ontop of eachother*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Set link text color*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Sets the font size of the paragraphs*/
 p {
     font-size: 16px;
 }
-
+/*Sets the general style for the large image on the page*/
 figure {
     height: 800px;
     width: 100%;
@@ -58,23 +59,24 @@ figure {
     background-size: cover;
     background-position: center;
 }
-
+/*Class that sets the pictures askew from eachother*/
+/*Not sure if askew was the right word there*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*Same as above*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*General style for content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*General style for benefit */
 .benefit {
     margin-right: 20px;
     padding: 20px;
@@ -87,20 +89,19 @@ figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
+/*Sets the margin and position for the headers in the aside*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Sets the positoning for the icons in the aside*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/*General style for the section class I created*/
+.section-class {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -108,52 +109,16 @@ figure {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*Defines the size of the images in the section*/
+.section-class img{
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
+/*Defines the font size of the headers in the section*/
+.section-class h2{
+    margin-bottom:20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*General style for the footer*/
 footer {
     padding: 30px;
     clear: both;
