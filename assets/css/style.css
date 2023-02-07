@@ -4,10 +4,12 @@
     padding: 0;
     margin: 0;
 }
+
 /*General background color set*/
 body {
     background-color: #d9dcd6;
 }
+
 /*General Heading style*/
 header {
     padding: 20px;
@@ -15,15 +17,18 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /*Sets the Horiseon position and size*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /*Sets the 'seo' in Horiseon to be a different color*/
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /*General Navigation bar style*/
 header nav {
     padding-top: 15px;
@@ -36,20 +41,25 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
+
 /*Sets the Nav bar List elements to be next to eachother instead of ontop of eachother*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /*Set link text color*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /*Sets the font size of the paragraphs*/
 p {
     font-size: 16px;
+    padding-bottom: 35px;
 }
+
 /*Sets the general style for the large image on the page*/
 figure {
     height: 800px;
@@ -59,23 +69,27 @@ figure {
     background-size: cover;
     background-position: center;
 }
+
 /*Class that sets the pictures askew from eachother*/
 /*Not sure if askew was the right word there*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 /*Same as above*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /*General style for content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /*General style for benefit */
 .benefit {
     margin-right: 20px;
@@ -89,17 +103,20 @@ figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /*Sets the margin and position for the headers in the aside*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /*Sets the positoning for the icons in the aside*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 /*General style for the section class I created*/
 .section-class {
     margin-bottom: 20px;
@@ -109,15 +126,18 @@ figure {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /*Defines the size of the images in the section*/
-.section-class img{
+.section-class img {
     max-height: 200px;
 }
+
 /*Defines the font size of the headers in the section*/
-.section-class h2{
-    margin-bottom:20px;
+.section-class h2 {
+    margin-bottom: 20px;
     font-size: 36px;
 }
+
 /*General style for the footer*/
 footer {
     padding: 30px;
